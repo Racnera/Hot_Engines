@@ -1,0 +1,15 @@
+﻿<Window x:Class="Sprint_2.TrackSelection"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Sprint_2"
+        mc:Ignorable="d"
+        Title="TrackSelection" Height="300" Width="300">
+    <Canvas x:Name="canvas" Background="Black">
+        <RadioButton x:Name="rbTrack1" Checked="rbTrack_Checked" Content="track1" Foreground="White"></RadioButton>
+        <RadioButton x:Name="rbTrack2" Checked="rbTrack_Checked" Content="track2" Foreground="White" Margin="54,0,-54,0"></RadioButton>
+        <RadioButton x:Name="rbTrack3" Checked="rbTrack_Checked" Content="track3" Foreground="White" Margin="109,0,-109,0"></RadioButton>
+        <Button x:Name="TrackSelect" Click="TrackSelection_Click" Margin="236,233,0,10"> StartGame</Button>
+    </Canvas>
+</Window>

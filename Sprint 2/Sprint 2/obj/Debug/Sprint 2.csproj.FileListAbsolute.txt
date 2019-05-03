@@ -1,0 +1,17 @@
+H:\ICS4U\Unit 4\Sprint 2\Sprint 2\bin\Debug\Sprint 2.exe.config
+H:\ICS4U\Unit 4\Sprint 2\Sprint 2\bin\Debug\Sprint 2.exe
+H:\ICS4U\Unit 4\Sprint 2\Sprint 2\bin\Debug\Sprint 2.pdb
+H:\ICS4U\Unit 4\Sprint 2\Sprint 2\obj\Debug\MainWindow.g.cs
+H:\ICS4U\Unit 4\Sprint 2\Sprint 2\obj\Debug\App.g.cs
+H:\ICS4U\Unit 4\Sprint 2\Sprint 2\obj\Debug\Sprint 2_MarkupCompile.cache
+H:\ICS4U\Unit 4\Sprint 2\Sprint 2\obj\Debug\Sprint 2_MarkupCompile.lref
+H:\ICS4U\Unit 4\Sprint 2\Sprint 2\obj\Debug\MainWindow.baml
+H:\ICS4U\Unit 4\Sprint 2\Sprint 2\obj\Debug\Sprint 2.g.resources
+H:\ICS4U\Unit 4\Sprint 2\Sprint 2\obj\Debug\Sprint_2.Properties.Resources.resources
+H:\ICS4U\Unit 4\Sprint 2\Sprint 2\obj\Debug\Sprint 2.csproj.GenerateResource.Cache
+H:\ICS4U\Unit 4\Sprint 2\Sprint 2\obj\Debug\Sprint 2.csproj.CoreCompileInputs.cache
+H:\ICS4U\Unit 4\Sprint 2\Sprint 2\obj\Debug\Sprint 2.exe
+H:\ICS4U\Unit 4\Sprint 2\Sprint 2\obj\Debug\Sprint 2.pdb
+H:\ICS4U\Unit 4\Sprint 2\Sprint 2\obj\Debug\TrackSelection.g.cs
+H:\ICS4U\Unit 4\Sprint 2\Sprint 2\obj\Debug\TrackSelection.baml
+H:\ICS4U\Unit 4\Sprint 2\Sprint 2\obj\Debug\Sprint 2.csprojResolveAssemblyReference.cache

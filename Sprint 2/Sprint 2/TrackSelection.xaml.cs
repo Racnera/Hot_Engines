@@ -51,7 +51,7 @@ namespace Sprint_2
                 
                 MainWindow.trackNum = 2;
                 DialogResult = true;
-
+                
             }
             
         }

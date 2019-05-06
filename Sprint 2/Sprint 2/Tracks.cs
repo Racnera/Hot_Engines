@@ -58,5 +58,6 @@ namespace Sprint_2
             Canvas.SetTop(wall1, wall1Pos.Y);
             
         }
+        public void Track3(Canvas c) { }
     }
 }

@@ -36,11 +36,11 @@ namespace Sprint_2
         public void Track1(Canvas c)
         {
             canvas = c;
-            wall1.Height = 10;
-            wall1.Width = 100;
+            wall1.Height = 600;
+            wall1.Width = 800;
             wall1Pos.Y = 300;
             wall1Pos.X = 200;
-            wall1.Fill = Brushes.Aqua;
+            wall1.Fill = Brushes.Green;
             canvas.Children.Add(wall1);
             Canvas.SetLeft(wall1, 100);
 
@@ -48,16 +48,19 @@ namespace Sprint_2
         public void Track2(Canvas c)
         {
             canvas = c;
-            wall1.Height = 10;
-            wall1.Width = 100;
-            wall1Pos.Y = 300;
+            wall1.Height = 600;
+            wall1.Width = 800;
+            wall1Pos.Y = 100;
             wall1Pos.X = 200;
-            wall1.Fill = Brushes.Aqua;
+            wall1.Fill = Brushes.Green;
             canvas.Children.Add(wall1);
             Canvas.SetLeft(wall1, wall1Pos.X);
             Canvas.SetTop(wall1, wall1Pos.Y);
             
         }
-        public void Track3(Canvas c) { }
+        public void Track3(Canvas c)
+        {
+
+        }
     }
 }

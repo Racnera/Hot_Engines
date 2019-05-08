@@ -32,7 +32,7 @@ namespace Sprint_2
        
     private void rbTrack_Checked(object sender, RoutedEventArgs e)
         {
-            
+            ///highlights the area around the track selected
         }
 
         private void TrackSelection_Click(object sender, RoutedEventArgs e)
@@ -52,6 +52,11 @@ namespace Sprint_2
                 MainWindow.trackNum = 2;
                 DialogResult = true;
                 
+            }
+            if(rbTrack3.IsChecked == true)
+            {
+                MainWindow.trackNum = 3;
+                DialogResult = true;
             }
             
         }

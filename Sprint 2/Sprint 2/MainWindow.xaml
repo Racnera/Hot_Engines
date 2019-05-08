@@ -5,12 +5,25 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Sprint_2"
         mc:Ignorable="d"
-        LostFocus="Window_LostFocus"
-        Title="MainWindow" Height="350" Width="525">
+        WindowState="Maximized"
+        MinHeight="400"
+        MinWidth="600"
+        LostFocus="Window_LostFocus"        
+        Title="MainWindow" Height="600" Width="800">
+
     <Canvas x:Name="canvas" Background="Black">
-        <Button x:Name="selectTrack"  Background="Black" Click="Button_Click" Foreground="White" Content="Select Track" Height="17" VerticalAlignment="Bottom" Canvas.Left="225" Canvas.Top="124"/>
-        <Button x:Name="startGame" Click="startGame_Click" Background="Black" Foreground="White" Canvas.Left="225" Canvas.Top="146">Start Game</Button>
-        <Label x:Name="lblangle" Foreground="White" Visibility="Hidden">Angle : 0</Label>
-        <Label x:Name="lblcomputedangle" Foreground="White" Canvas.Top="26" Visibility="Hidden">Angle : 0</Label>
+        <Canvas x:Name="mainMenu" Visibility="Visible">
+            <Button x:Name="selectTrack"  Background="Black" Click="Button_Click" Foreground="White" Content="Select Track" Height="17" VerticalAlignment="Bottom" Canvas.Left="225" Canvas.Top="124"/>
+            <Button x:Name="startGame" Click="startGame_Click" Background="Black" Foreground="White" Canvas.Left="225" Canvas.Top="146">Start Game</Button>
+        </Canvas>
+        <Canvas x:Name="gameScreen" >
+            <Label x:Name="lblangle" Foreground="White" Visibility="Hidden">Angle : 0</Label>
+            <Label x:Name="lblcomputedangle" Foreground="White" Canvas.Top="26" Visibility="Hidden">Angle : 0</Label>
+            
+        </Canvas>
+        <StackPanel x:Name="instructions" Canvas.Left="87" Canvas.Top="26" Visibility="Hidden">
+                <Label x:Name="paused" Foreground="White" FontSize="75" Width="276" Content="PAUSED" />
+                <Label x:Name="lblinstruct"  Foreground="White" FontSize="28" Canvas.Left="88" Canvas.Top="111" Content="PRESS SPACE TO UNPAUSE"/>
+        </StackPanel>
     </Canvas>
 </Window>
